@@ -7,3 +7,9 @@
 # sort: Sort the list.
 # pop: Pop the last element from the list.
 # reverse: Reverse the list.
+# quit: stop taking commands
+
+while True:
+    command = input("What do you want to do to the list.")
+    if command == "quit":
+        break
